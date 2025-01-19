@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveGuard Home</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 수직 가운데 정렬 */
+            align-items: center;    /* 수평 가운데 정렬 */
+            height: 100vh;          /* 화면 전체 높이 사용 */
+            margin: 0;              /* 기본 여백 제거 */
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* 부드러운 배경색 추가 */
+        }
+        h1 {
+            font-size: 3em;         /* 제목 글씨 크기 */
+            margin-bottom: 20px;   /* 아래 간격 추가 */
+        }
+        p {
+            font-size: 1.2em;      /* 설명 글씨 크기 */
+            margin-bottom: 30px;   /* 아래 간격 추가 */
+        }
+        button {
+            background-color: #007bff; /* 버튼 색상 */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3; /* 버튼 호버 색상 */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to LiveGuard</h1>
+    <p>Click the button below to view the live CCTV feed.</p>
+    <a href="{% url 'live_feed' %}">
+        <button>View CCTV</button>
+    </a>
+</body>
+</html>
+

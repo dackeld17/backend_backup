@@ -21,3 +21,15 @@ class ImageUploadView(APIView):
         
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+from django.shortcuts import render
+
+def home(request):
+    """홈 화면"""
+    return render(request, 'home.html')
+
+def live_feed(request):
+    """CCTV 실시간 스트리밍 화면"""
+    return render(request, 'live_feed.html')
+
+def image_viewer(request):
+    return render(request, 'image_viewer.html')

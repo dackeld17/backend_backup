@@ -64,7 +64,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -131,3 +131,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+INSTALLED_APPS += [
+    'channels', # Channels 앱 추가
+    'websocket' # websocket 앱 추가
+]
+
+# ASGI 애플리케이션 설정
+ASGI_APPLICATION = 'your_project_name.asgi.application'
+
+SECURE_CROSS_ORIGIN_OPENER_POLICY = None
+

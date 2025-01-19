@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live CCTV Feed</title>
+</head>
+<body>
+    <h1>Live CCTV Feed</h1>
+    <img id="live-feed" src="" alt="Live CCTV Feed" style="width: 100%; max-width: 800px;">
+
+    <script>
+        const websocket = new WebSocket("ws://34.22.82.134:8000/ws/");  // Django WebSocket 서버 주소
+        const liveFeed = document.getElementById('live-feed');
+
+        websocket.onmessage = function(event) {
+            console.log("Frame received");
+		// 수신한 Base64 데이터를 이미지로 설정
+            liveFeed.src = "data:image/jpeg;base64," + event.data;
+        };
+
+        websocket.onerror = function(error) {
+            console.error("WebSocket Error:", error);
+        };
+
+        websocket.onclose = function() {
+            console.log("WebSocket connection closed");
+        };
+    </script>
+</body>
+</html>
+

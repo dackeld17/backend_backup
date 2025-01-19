@@ -19,6 +19,18 @@ from django.urls import path, include
 from django.http import HttpResponse
 from django.conf.urls.static import static
 from django.conf import settings
+from api import views
+import os
+
+
+def display_image(request, image_name):
+    # 미디어 디렉토리에서 이미지 파일 찾기
+    image_path = os.path.join(settings.BASE_DIR, "websocket/frame", image_name)
+    if os.path.exists(image_path):
+        with open(image_path, 'rb') as f:
+            return HttpResponse(f.read(), content_type="image/jpeg")
+    return HttpResponse("Image not found", status=404)
+
 def home(request):
     return HttpResponse("!Welcome TO LiveGuard!")
 
@@ -26,8 +38,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('density.urls')),# density 앱의 URLs 포함
     path('api/', include('api.urls')),
-    path('',home),
-]
+    path('',views.home, name='home'),
+    path('live_feed/', views.live_feed, name='live_feed'),
+    path('image/<str:image_name>/', display_image, name='display_image'),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
