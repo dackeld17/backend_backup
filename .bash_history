@@ -1188,3 +1188,52 @@ source activate
 cd ..
 ls
 python3 manage.py 
+ls
+clear
+cd LiveGuard/
+ls
+git commit -m .
+cd ..
+cd LiveGuard/
+ls
+nano README.md 
+git commit -m .
+git commit -m "."
+git status
+cd ..
+clear
+ls
+git status
+git add .
+git commit -m "0325"
+git push origin
+git remote -v
+git remote set-url origin https://github.com/dackeld17/backend_backup.git
+git remote -v
+git add .
+git commit -m "0325"
+git push origin master
+git push origin master --force
+cd LiveGuard/
+ls
+cd LiveGuard_backend/
+ls
+clear
+git add .
+git commit -m ""
+git status
+git push origin master --force
+ls
+nano ~/.bash_history
+nano .gitignore
+git rm --cached ~/.bash_history
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch ~/.bash_history" --prune-empty --tag-name-filter cat -- --all
+clear
+ls
+source ~/LiveGuard/LiveGuard_backend/venv/bin/activate
+daphne -b 0.0.0.0 -p 8000 LiveGuard_backend.asgi:application
+cd ..
+clear
+pip install ultralytics
+clear
+exit
