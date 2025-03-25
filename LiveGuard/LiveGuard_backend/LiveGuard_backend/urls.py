@@ -35,7 +35,7 @@ def home(request):
     return HttpResponse("!Welcome TO LiveGuard!")
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+   # path('admin/', admin.site.urls),
     path('api/', include('density.urls')),# density 앱의 URLs 포함
     path('api/', include('api.urls')),
     path('',views.home, name='home'),

@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header&text=LiveGuard&fontSize=50" />
 
 GPS 기반 군중 제어 및 재난 대응 서비스
-
+API
 ## 소개
 
 LiveGuard는 GPS와 TensorFlow를 활용하여 **군중 밀집도를 실시간으로 파악**하고 **재난 상황에서 안전한 대피 경로를 제공**하는 서비스입니다. 이 프로젝트는 대규모 행사나 재난 발생 시 군중의 안전을 보장하고 신속한 대응을 지원하기 위해 개발되었습니다.

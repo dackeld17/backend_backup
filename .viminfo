@@ -14,12 +14,12 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1737698438,,"wq"
 :q
-|2,0,1736667575,,"q"
+|2,0,1737696789,,"q"
 :ㅂ
 |2,0,1736665299,,"ㅂ"
-:wq
-|2,0,1736664319,,"wq"
 :WQ
 |2,0,1736618027,,"WQ"
 :q!
@@ -71,34 +71,148 @@ $
 |3,0,36,0,1,0,1736613782,"h"
 
 # File marks:
-'0  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
-|4,48,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
-'1  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
-|4,49,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
-'2  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,50,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
-'3  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,51,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
-'4  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,52,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+'0  38  3  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py
+|4,48,38,3,1737698438,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py"
+'1  38  3  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py
+|4,49,38,3,1737698357,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py"
+'2  1  0  ~/LiveGuard/LiveGuard_backend/settings/urls.py
+|4,50,1,0,1737696789,"~/LiveGuard/LiveGuard_backend/settings/urls.py"
+'3  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
+|4,51,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
+'4  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,52,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
 '5  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,53,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
-'6  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,54,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
-'7  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,55,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
-'8  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,56,30,6,1736664703,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
-'9  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,57,30,6,1736664703,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,53,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+'6  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,54,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+'7  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,55,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+'8  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,56,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+'9  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,57,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 
 # Jumplist (newest first):
+-'  38  3  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py
+|4,39,38,3,1737698438,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py"
+-'  38  3  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py
+|4,39,38,3,1737698357,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py"
+-'  48  0  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py
+|4,39,48,0,1737698350,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py"
+-'  48  0  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py
+|4,39,48,0,1737698350,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py"
+-'  1  0  ~/LiveGuard/LiveGuard_backend/settings/urls.py
+|4,39,1,0,1737696789,"~/LiveGuard/LiveGuard_backend/settings/urls.py"
+-'  1  0  ~/LiveGuard/LiveGuard_backend/settings/urls.py
+|4,39,1,0,1737696789,"~/LiveGuard/LiveGuard_backend/settings/urls.py"
+-'  1  0  ~/LiveGuard/LiveGuard_backend/settings/urls.py
+|4,39,1,0,1737696789,"~/LiveGuard/LiveGuard_backend/settings/urls.py"
+-'  1  0  ~/LiveGuard/LiveGuard_backend/settings/urls.py
+|4,39,1,0,1737696789,"~/LiveGuard/LiveGuard_backend/settings/urls.py"
+-'  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
+|4,39,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
+-'  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
+|4,39,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
+-'  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
+|4,39,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
+-'  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
+|4,39,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
+-'  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
+|4,39,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
+-'  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
+|4,39,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
+-'  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
+|4,39,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
 -'  7  0  ~/LiveGuard/LiveGuard_backend/websocket/routing.py
 |4,39,7,0,1736667575,"~/LiveGuard/LiveGuard_backend/websocket/routing.py"
 -'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
 |4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
 -'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
 |4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  25  28  ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py
+|4,39,25,28,1736667463,"~/LiveGuard/LiveGuard_backend/LiveGuard_backend/asgi.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
+-'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
+|4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
 -'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
 |4,39,27,0,1736666685,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
 -'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
@@ -124,177 +238,104 @@ $
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
 |4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 -'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,20,1736665912,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  27  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,27,0,1736665825,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  49  0  ~/LiveGuard/LiveGuard_backend/websocket/consumers.py
-|4,39,49,0,1736665468,"~/LiveGuard/LiveGuard_backend/websocket/consumers.py"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  14  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,14,6,1736665301,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
--'  30  6  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
-|4,39,30,6,1736665001,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
+-'  14  20  ~/LiveGuard/LiveGuard_backend/templates/live_feed.html
+|4,39,14,20,1736666014,"~/LiveGuard/LiveGuard_backend/templates/live_feed.html"
 
 # History of marks within files (newest to oldest):
+
+> ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py
+	*	1737698435	0
+	"	38	3
+	^	38	4
+	.	38	3
+	+	42	0
+	+	41	0
+	+	40	37
+	+	41	17
+	+	19	0
+	+	35	33
+	+	19	36
+	+	35	25
+	+	20	41
+	+	45	0
+	+	47	79
+	+	21	31
+	+	22	0
+	+	23	0
+	+	22	20
+	+	41	35
+	+	23	0
+	+	41	35
+	+	44	0
+	+	42	56
+	+	41	36
+	+	42	57
+	+	23	9
+	+	49	53
+	+	43	72
+	+	44	64
+	+	49	0
+	+	26	39
+	+	32	53
+	+	28	46
+	+	38	3
+
+> ~/LiveGuard/LiveGuard_backend/settings/urls.py
+	*	1737696788	0
+	"	1	0
 
 > ~/LiveGuard/LiveGuard_backend/websocket/routing.py
 	*	1736667574	0
@@ -427,42 +468,6 @@ $
 > ~/LiveGuard/LiveGuard_backend/templates/imageview.html
 	*	1736660583	0
 	"	1	0
-
-> ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/urls.py
-	*	1736660369	0
-	"	48	0
-	^	28	47
-	.	28	46
-	+	42	0
-	+	41	0
-	+	40	37
-	+	41	17
-	+	19	0
-	+	35	33
-	+	19	36
-	+	35	25
-	+	20	41
-	+	45	0
-	+	47	79
-	+	21	31
-	+	22	0
-	+	23	0
-	+	22	20
-	+	41	35
-	+	23	0
-	+	41	35
-	+	44	0
-	+	42	56
-	+	41	36
-	+	42	57
-	+	23	9
-	+	49	53
-	+	43	72
-	+	44	64
-	+	49	0
-	+	26	39
-	+	32	53
-	+	28	46
 
 > ~/LiveGuard/LiveGuard_backend/LiveGuard_backend/vi
 	*	1736618631	0

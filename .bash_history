@@ -1024,3 +1024,167 @@ ls
 cd LiveGuard/
 cd LiveGuard_backend/
 ls
+git ㅔㅕㅣㅣ
+git pull
+gir push
+git push
+git remote -v
+git branch
+git add .
+git status
+git commit -m "01-19"
+git push
+git push origin 
+git push origin master 
+dackeld17
+git push origin master 
+git remote remove origin
+git remote add origin https://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@github.com/dackeld17/liveguard.git
+git add .
+git status
+git commit -m "0119"
+git push -u https://github.com/dackeld17/backend_backup master
+git push
+git add .
+git commit -m "0119_331"
+exit
+;s
+ls
+cd LiveGuard/
+clear
+ls
+cd LiveGuard_backend/
+ls
+python3 manage.py 
+source ./venv/bin/activate
+python3 manage.py 
+pwd
+cd
+ls
+cd LiveGuard/
+clear
+ls
+cd LiveGuard_backend/
+clear
+cd /ve
+cd venv/
+ls
+cd bin/
+ls
+source activate
+c;ear
+clear
+cd ..
+ls
+cd settings/
+ls
+cat urls.py 
+vi urls.py 
+cd ..
+cd s
+cd settings/
+cat serializers.py 
+clear
+ls
+cd ..
+ls
+cd websocket/
+;s
+ls
+cd frame/
+ls
+cd ..
+clear
+ls
+cd ..
+ls
+cd LiveGuard_backend/
+ls
+clear
+ls
+cd ..
+ls
+python3 manage.py runsever
+python3 manage.py runserver
+python3 manage.py runserver 0
+python3 manage.py runserver 0.0.0.0
+python3 manage.py runserver 0.0.0.0:8000
+clear
+ls
+cd LiveGuard/
+ls
+cd LiveGuard_backend/
+clear
+ls
+cd venv/
+source bin/activate
+clear
+cd ..
+ls
+python3 manage.py 
+python3 manage.py runserver
+ls
+cd LiveGuard_backend/
+ls
+vi urls.py 
+cd ..
+python3 manage.py runserver
+cd ..
+cd LiveGuard_backend/
+ls
+cd LiveGuard_backend/
+clear
+ls
+vi urls.py 
+clear
+ls
+cd ..
+ls
+cd settings/
+exit
+cd LiveGuard/
+cd LiveGuard_backend/
+clear
+ls
+cd venv/
+clear
+ls
+cd bin/
+source activate
+clear
+cd ..
+clear
+ls
+python3 manage.py runserver
+exit
+ㅣㄴ
+ls
+cd LiveGuard/
+cd LiveGuard_backend/
+clear
+ls
+source venv/bin/activate
+python3 manage.py runserver 
+python3 manage.py runserver 0.0.0.0::8000
+python3 manage.py runserver 0.0.0.0::80000
+python3 manage.py runserver 0.0.0.0:8000
+daphne -b 0.0.0.0 -p 8000 LiveGuard_backend.asgi:application
+exiu
+exit
+ld
+ls
+clear
+cd l
+ls
+cd LiveGuard/
+ls
+cd LiveGuard_backend/
+ls
+cd venv/
+ls
+cd bin/
+ls
+source activate
+cd ..
+ls
+python3 manage.py 
