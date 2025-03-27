@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live CCTV Feed</title>
-</head>
-<body>
-    <h1>Live CCTV Feed</h1>
-    <img id="live-feed" src="" alt="Live CCTV Feed" style="width: 100%; max-width: 800px;">
+    <head>
+        <meta charset="UTF-8" />
+        <title>YouTube Live Feed</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
 
-    <script>
-        const websocket = new WebSocket("ws://34.22.82.134:8000/ws/");  // Django WebSocket 서버 주소
-        const liveFeed = document.getElementById('live-feed');
+            h1 {
+                margin-bottom: 30px;
+                font-size: 2em;
+                color: #333333;
+            }
 
-        websocket.onmessage = function(event) {
-            console.log("Frame received");
-		// 수신한 Base64 데이터를 이미지로 설정
-            liveFeed.src = "data:image/jpeg;base64," + event.data;
-        };
+            .video-wrapper {
+                width: 1920px;
+                height: 1080px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
 
-        websocket.onerror = function(error) {
-            console.error("WebSocket Error:", error);
-        };
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>LiveGuard</h1>
 
-        websocket.onclose = function() {
-            console.log("WebSocket connection closed");
-        };
-    </script>
-</body>
+        <div class="video-wrapper">
+            <iframe
+                src="https://www.youtube.com/embed/rnXIjl_Rzy4?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1"
+                title="YouTube video"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+            >
+            </iframe>
+        </div>
+    </body>
 </html>
-
